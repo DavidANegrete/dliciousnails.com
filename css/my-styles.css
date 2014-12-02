@@ -1,0 +1,108 @@
+//*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+body {
+  background:  url("");
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/*
+ * Layout Main Page
+ */
+
+.main-jumbo {
+  max-width: 1000px;
+  height: 80%;
+  background: #fff url("/img/back-drop.svg");
+  margin: auto auto;  
+}
+
+
+.contact {
+  max-width: 300px;
+
+}
+/*
+ * Gallery and picture layout
+ */
+
+
+
+
+      ul {         
+          padding:0 0 0 0;
+          margin:0 0 0 0;
+      }
+      ul li {     
+          list-style:none;
+          margin-bottom:25px;           
+      }
+      ul li img {
+          cursor: pointer;
+      }
+       
+
+.img-about-you{
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+.logo-about-index {
+  width: 600px;
+  height: 600px;
+}
+.gallery-img {
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+/*
+ * Search bar for the picture
+ */
+ .main-gallery {
+  min-height: 100%;
+  min-width: 100%;
+
+ }
+
+ /*
+ *media querries 
+
+ */
+ @media (min-width: @screen-sm-min) { 
+  .hidden-small {
+    display: none;
+  }
+
+
+
+ }
